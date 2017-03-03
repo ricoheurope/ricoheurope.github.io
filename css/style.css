@@ -9,7 +9,6 @@ Fonts
 **************************************/
 @import url('https://fonts.googleapis.com/css?family=Graduate');
 
-
 /**************************************
 link & button
 **************************************/
@@ -401,12 +400,12 @@ margin-top: 5px;
 .text-field-box {
     background: #fff;
     border: 1px solid #ddd;
-    border-radius: 20px;
-    height: 30px;
-    line-height: 40px;
+    border-radius: 3px;
+    height: 60px;
+    line-height: 60px;
     text-align: left;
     color: #666;
-    font-size: 12px;
+    font-size: 14px;
     padding: 0 35px;
     margin-bottom: 30px;
     width: 100%;
@@ -452,7 +451,7 @@ margin-top: 5px;
 
 .button-medium {
     background: #e43c5c;
-    border-radius: 30px;
+    border-radius: 3px;
     color: #ffffff;
     cursor: pointer;
     display: block;

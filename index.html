@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en" class=" js no-touch">
 <head>
@@ -25,7 +26,6 @@
     ======================================================= -->
 </head>
 <body>
-
 	<!--HEADER START-->
 	<div class="main-navigation navbar-fixed-top">
 		<nav class="navbar navbar-default">
@@ -43,9 +43,11 @@
 				<div class="collapse navbar-collapse" id="myNavbar">
 					<ul class="nav navbar-nav navbar-right">
 						<li class="active"><a href="#banner">Home</a></li>
-						<li><a href="#service">News & Events</a></li>
 						<li><a href="#about">About</a></li>
+						<li><a href="#prospectus">Get Prospectus</a></li>
+						<li><a href="#courses">Courses</a></li>
 						<li><a href="#contact">Contact Us</a></li>
+						<li><a href="#login">Login</a></li>
 					</ul>
 				</div>
 			</div>
@@ -89,7 +91,7 @@
 	<!--CTA1 END-->
 
 	<!--SERVICE START-->
-	<div id="service" class="section-padding">
+	<div id="about" class="section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="page-title text-center">
@@ -152,14 +154,14 @@
 
 
 	<!--PERSONALIZED PROSPECTUS-->
-	<div id="service" class="section-padding">
+	<div id="prospectus" class="section-padding" style="background-color: #F5F5F5;">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-4">
-					<img src="img/custom-templates_devices-illustration.png"
-						style="max-width: 200px"></img>
+				<div class="col-md-5 style="margin-bottom: 50px;">
+					<img src="img/prospectus2.png" style="max-width: 500px; padding-bottom: 50px"></img>
 				</div>
-				<div class="col-md-8">
+			
+				<div class="col-md-7">
 					<div class="page-title pull-left">
 						<h1 class="text-center">Personalised Prospectus</h1>
 						<p>Your Personalised Prospectus allows you to create and
@@ -175,19 +177,16 @@
 							relevant to you.</p>
 						<hr class="pg-titl-bdr-btm"></hr>
 
+						<div align="center">
+							<a onclick="login('demo', 'totalflow')" class="btn btn_cta1">Request
+							personalized prospectus <i class="fa fa-send"></i>
+							</a>
+	
+							<!-- Frame for MCC login -->
+							<iframe id="marcomiframe" style="border: 0px; display: none"></iframe>
+						</div>
 					</div>
 				</div>
-				<div align="center" class="col-md-12">
-					<a onclick="login('demo', 'totalflow')" class="btn btn_cta1">Request
-						personalized prospectus <i class="fa fa-send"></i>
-					</a>
-
-					<!-- Frame for MCC login -->
-					<iframe id="marcomiframe" style="border: 0px; display: none"></iframe>
-				</div>
-
-
-
 			</div>
 		</div>
 	</div>
@@ -197,7 +196,7 @@
 
 
 	<!--PORTFOLIO START-->
-	<div id="portfolio" class="section-padding">
+	<div id="courses" class="section-padding">
 		<div class="container">
 			<div class="row">
 				<div class="page-title text-center">
@@ -215,37 +214,40 @@
 							All</div>
 						<div class="filter wrk-title" data-filter=".category-1">Economics</div>
 						<div class="filter wrk-title" data-filter=".category-2">Literature</div>
-						<div class="filter wrk-title" data-filter=".category-3">Mathematics</div>
+						<div class="filter wrk-title" data-filter=".category-3">Marketing</div>
 					</div>
 					<div id="Container">
 						<div class="filimg mix category-1  col-md-4 col-sm-4 col-xs-12"
 							data-myorder="2">
-							<img src="img/univ1.jpg" class="img-responsive">
+							<img src="img/eco1.jpg" class="img-responsive">
 						</div>
 						<div class="filimg mix category-2 col-md-4 col-sm-4 col-xs-12"
 							data-myorder="4">
-							<img src="img/fea2.jpg" class="img-responsive">
+							<img src="img/lit3.jpg" class="img-responsive">
 						</div>
 						<div class="filimg mix category-1 col-md-4 col-sm-4 col-xs-12"
 							data-myorder="1">
-							<img src="img/univ2.jpg" class="img-responsive">
+							<img src="img/eco2.jpg" class="img-responsive">
 						</div>
 						<div class="filimg mix category-2  col-md-4 col-sm-4 col-xs-12"
 							data-myorder="8">
-							<img src="img/fea4.jpg" class="img-responsive">
+							<img src="img/lit4.jpg" class="img-responsive">
 						</div>
 						<div class="filimg mix category-2 col-md-4 col-sm-4 col-xs-12"
 							data-myorder="8">
-							<img src="img/fea5.jpg" class="img-responsive">
+							<img src="img/lit1.jpg" class="img-responsive">
 						</div>
 						<div class="filimg mix category-2  col-md-4 col-sm-4 col-xs-12"
 							data-myorder="8">
-							<img src="img/fea6.jpg" class="img-responsive">
+							<img src="img/lit2.jpg" class="img-responsive">
 						</div>
-
 						<div class="filimg mix category-3  col-md-4 col-sm-4 col-xs-12"
 							data-myorder="8">
-							<img src="img/math1.jpg" class="img-responsive">
+							<img src="img/mar2.jpg" class="img-responsive">
+						</div>
+						<div class="filimg mix category-3  col-md-4 col-sm-4 col-xs-12"
+							data-myorder="8">
+							<img src="img/mar1.jpg" class="img-responsive">
 						</div>
 					</div>
 				</div>
@@ -255,7 +257,7 @@
 	<!--PORTFOLIO END-->
 
 	<!--TEAM START-->
-	<div id="about" class="section-padding">
+	<div id="team" class="section-padding" style="display: none">
 		<div class="container">
 			<div class="row">
 				<div class="page-title text-center">
@@ -362,22 +364,9 @@
 	</div>
 	<!--TEAM END-->
 
-	<!--CTA2 START-->
-	<div class="cta2">
-		<div class="container">
-			<div class="row white text-center">
-				<h3 class="wd75 fnt-24">Your Personalised Prospectus allows you
-					to create and download a customised, electronic undergraduate
-					prospectus in just a few minutes.</h3>
-				<a href="#" class="btn btn-default">Request A Personalized
-					Prospectus</a>
-			</div>
-		</div>
-	</div>
-	<!--CTA2 END-->
 
 	<!--CONTACT START-->
-	<div id="contact" class="section-padding">
+	<div id="contact" class="section-padding" style="background-color: #F5F5F5">
 		<div class="container">
 			<div class="row">
 				<div class="page-title text-center">
