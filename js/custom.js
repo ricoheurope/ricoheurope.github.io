@@ -1,5 +1,25 @@
 (function ($) {
-    
+	
+	$('#style').click(function (){
+		   $('link[name="style"]').attr('href','css/style.css');
+		});
+	
+	$('#style3').click(function (){
+		   $('link[name="style"]').attr('href','css/style3.css');
+		});
+	
+	$('#style4').click(function (){
+		   $('link[name="style"]').attr('href','css/style4.css');
+		});
+	
+	$('#style5').click(function (){
+		   $('link[name="style"]').attr('href','css/style5.css');
+		});
+	
+	$('#style6').click(function (){
+		   $('link[name="style"]').attr('href','css/style6.css');
+		});
+	
     // Navigation scrolls
     $('.navbar-nav li a').bind('click', function(event) {
         $('.navbar-nav li').removeClass('active');
