@@ -1,3 +1,3 @@
 <script>
-alert("yep1");
+alert("yep2");
 </script>
