@@ -525,7 +525,7 @@ margin-top: 5px;
 	max-width:100%;
 
 }
-
+/*
 #about {
 		background: url('../img/banner-bg2.jpg') no-repeat;
     background-size: cover;
@@ -555,7 +555,8 @@ margin-top: 5px;
     min-height: 600px;
 	max-width:100%;
 
-}
+}*/
+
 .cta2 .btn-default,.cta2 .btn-default:hover,.cta2 .btn-default:focus
 {
     padding: 10px 25px;
