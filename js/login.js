@@ -1,7 +1,4 @@
 	
-
-	
-	
 	$(function() {
 	    $(window).load(function() {
 	       loaded = true;
